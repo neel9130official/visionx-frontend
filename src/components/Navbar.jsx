@@ -54,12 +54,15 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src={assets.VisionX2}
-              alt="VisionX Logo"
-              className="w-44 sm:w-48 lg:w-52
-                         drop-shadow-[0_0_25px_rgba(0,246,255,0.7)]
-                         transition-transform hover:scale-105"
-            />
+  src={assets.VisionX2}
+  alt="VisionX Logo"
+  loading="eager"
+  decoding="async"
+  className="w-44 sm:w-48 lg:w-52
+             drop-shadow-[0_0_25px_rgba(0,246,255,0.7)]
+             transition-transform hover:scale-105"
+/>
+
           </Link>
 
           {/* Desktop Navigation */}
